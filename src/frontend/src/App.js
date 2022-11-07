@@ -15,24 +15,11 @@ import {
 import './App.css';
 import { errorNotification, successNotification } from './notification';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
 const popconfirmText = "Are you sure you want to delete this student?"
 
-const dataSource = [
-  {
-    key: '1',
-    name: 'Mike',
-    age: 32,
-    address: '10 Downing Street',
-  },
-  {
-    key: '2',
-    name: 'John',
-    age: 42,
-    address: '10 Downing Street',
-  },
-];
+
 
 const TheAvatar = ({name}) => {
 
