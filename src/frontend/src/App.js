@@ -142,7 +142,7 @@ function App() {
           return <>
               <Button
                   onClick={() => setShowDrawer(!showDrawer)}
-                  type="primary" shape="round" icon={<PlusOutlined/>} size="medium">
+                  type="dashed" shape="round" icon={<PlusOutlined/>} size="medium">
                   Add New Student
               </Button>
               <StudentDrawerForm
@@ -166,11 +166,7 @@ function App() {
       bordered
       title={() => 
       <>
-      <Button 
-        onClick={() => setShowDrawer(!showDrawer)}
-        type="primary" shape="round" icon={<PlusOutlined />} size="large">
-      Add New Student
-    </Button>
+      
     <Badge count={students.length}/>
     </>}
       pagination={{ pageSize: 50 }}
