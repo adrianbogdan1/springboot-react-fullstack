@@ -149,7 +149,6 @@ function App() {
                   showDrawer={showDrawer}
                   setShowDrawer={setShowDrawer}
                   fetchStudents={fetchStudents}
-              />
               <Empty/>
           </>
       }
