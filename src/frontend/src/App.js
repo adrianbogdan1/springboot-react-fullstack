@@ -166,7 +166,12 @@ function App() {
       bordered
       title={() => 
       <>
-      
+      <Button
+        type="dashed"
+        onClick={() => setShowDrawer(!showDrawer)}
+        shape="round" icon={<PlusOutlined />} size="medium">
+      Add New Student
+    </Button>
     <Badge count={students.length}/>
     </>}
       pagination={{ pageSize: 50 }}
